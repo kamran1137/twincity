@@ -1,0 +1,248 @@
+  .center-container {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 600px;
+    padding-top: 60px;
+  }
+  
+  .center-container  h1 {
+    height: 60px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 56px;
+    padding-bottom: 5px;
+    color: #173158;
+    margin-bottom: 0.5em;
+  }
+  .center-container h2{
+    height: 27px;
+    top: 5px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+  }
+  
+  .bottom-container1 h2 {
+    height: 40px;
+    padding-bottom: 8px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18p x;
+    line-height: 21px;
+    color: #173158;
+    margin-bottom: 0.5em;
+  }
+  
+  h3.contact {
+    height: 27px;
+    top: 5px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #173158;
+  }
+  
+  h2.number {
+    
+    height: 27px;
+    top: 10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #173158;
+
+  }
+  .bottom-container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 312px;
+    position: relative;
+    background-image: url(./img/Mask\ group.png);
+    height: 321px;
+    background-color: rgba(23, 49, 88, 0.8);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);  
+    background-blend-mode: multiply;
+    align-items: center;
+    top:100px;
+   
+  }
+  
+  .bottom-container1{
+    text-align: center;
+    width: 30%;
+  }
+  
+  .bottom-container1 img{
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+  }
+  
+  .bottom-container1 h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 20px;
+    color:#FFFFFF;
+  }
+  
+  .bottom-container1 h2{
+    font-size: 1.2rem;
+    color:#FFFFFF;
+    font-family:'Roboto';
+    font-weight: 600;
+    margin-top: 10px;
+  }
+
+  @media screen and (max-width: 1200px) {
+      .top-container {
+          padding-top: 30px;
+      }
+
+      .center-container {
+          width: 90%;
+          max-width: 550px;
+
+          align-items: center;
+      }
+
+      .center-container2 {
+          width: 90%;
+          max-width: 550px;
+          padding: 0 30px;
+      }
+
+      .center-container h1 {
+          width: 100%;
+          font-size: 36px;
+          line-height: 44px;
+      }
+
+      .center-container h2 {
+          width: 100%;
+          font-size: 16px;
+          line-height: 20px;
+          padding-bottom: 5px;
+      }
+
+      .contact,
+      .number {
+          width: 100%;
+          top: 0;
+          padding-top: 5px;
+          padding-bottom: 5px;
+      }
+
+    
+    
+      .phone,
+      .message {
+          width: 100%;
+          margin: 10px 0;
+          padding-left: 0;
+        
+      }
+
+    
+      .bottom-container {
+        height: auto;
+      }
+      
+      .bottom-container1 {
+        width: 50%;
+        padding-top: 10px;
+        margin: 0 auto;
+        padding-bottom: 10px;
+      }
+      
+      .bottom-container1 img {
+        width: 60px;
+        height: 60px;
+      }
+      
+      .bottom-container1 h1 {
+        font-size: 1.5rem;
+        margin-top: 10px;
+      }
+      
+      .bottom-container1 h2 {
+        font-size: 1rem;
+        margin-top: 5px;
+      }
+  }
+  @media only screen and (max-width: 820px) {
+    .top-container {
+        flex-direction: column;
+        padding-top: 30px;
+    }
+
+    .center-container,
+    .center-container2 {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .center-container h1 {
+        font-size: 36px;
+        line-height: 44px;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    .center-container h2 {
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    .contact,
+    .number {
+        text-align: center;
+    }
+
+    
+}
+@media only screen and (max-width: 480px) {
+    .top-container {
+        flex-direction: column;
+        padding-top: 10px;
+    }
+    .center-container {
+        max-width: 100%;
+        padding-top: 40px;
+      }
+    
+      .center-container h1 {
+        font-size: 32px;
+        line-height: 40px;
+        padding-bottom: 3px;
+        margin-bottom: 0.25em;
+      }
+    
+      .bottom-container1 h2 {
+        font-size: 16px;
+        line-height: 19px;
+        padding-bottom: 6px;
+        margin-bottom: 0.25em;
+      }
+    
+      h3.contact, h2.number {
+        font-size: 14px;
+        line-height: 16px;
+        height: auto;
+        top: auto;
+      }
+
+  }
+  
